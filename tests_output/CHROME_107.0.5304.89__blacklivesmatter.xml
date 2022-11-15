@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="blacklivesmatter"
+    errors="1" failures="0" hostname="" id="" package="blacklivesmatter" skipped="0"
+    tests="1" time="17.23" timestamp="">
+  
+    <testcase name="Donate to Black Lives Matter" classname="blacklivesmatter" time="17.23" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;#menu-primary-menu &gt; li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5726.nav-item &gt; a&gt;: Timed out while waiting for element &#34;#menu-primary-menu &gt; li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5726.nav-item &gt; a&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Object.Donate to Black Lives Matter (C:\nightwatch_test\tests\blacklivesmatter.js:5:17)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\nightwatch_test\tests\blacklivesmatter.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––
+     3 |         browser.url(&#34;blacklivesmatter.com&#34;)
+     4 |         browser.pause(1 * 3000)
+     5 |         browser.click(&#34;#menu-primary-menu &gt; li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5726.nav-item &gt; a&#34;) 
+     6 |         browser.pause(3 * 3000)
+     7 |     }
+    ––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
