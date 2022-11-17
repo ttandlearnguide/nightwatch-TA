@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="QA"
+    errors="1" failures="0" hostname="" id="" package="QA" skipped="0"
+    tests="1" time="39.21" timestamp="">
+  
+    <testcase name="tests" classname="QA" time="39.21" assertions="1">
+
+    
+    <error type="error"><![CDATA[
+    Error
+    at Object.tests (C:\nightwatch_test\tests\QA.js:44:14)
+    at Context.call (C:\nightwatch_test\node_modules\nightwatch\lib\testsuite\context.js:476:35)
+    at TestCase.run (C:\nightwatch_test\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\nightwatch_test\node_modules\nightwatch\lib\testsuite\index.js:713:80)
+    at Runnable.run (C:\nightwatch_test\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\nightwatch_test\node_modules\nightwatch\lib\testsuite\index.js:821:49)
+    at TestSuite.handleRunnable (C:\nightwatch_test\node_modules\nightwatch\lib\testsuite\index.js:836:33)
+    at C:\nightwatch_test\node_modules\nightwatch\lib\testsuite\index.js:713:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (C:\nightwatch_test\node_modules\nightwatch\lib\runner\test-runners\default.js:76:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error
+   Error while running &#34;getText&#34; command: Provided locating strategy &#34;div &gt; div &gt; p&#34; is not supported for .getText(). It must be one of the following: id, css selector, link text, partial link text, tag name, xpath.
+
+    Error location:
+    C:\nightwatch_test\tests\QA.js:
+    ––––––––––––––––––––––––––––––––
+     42 |             .pause(1 * 3000)
+     43 | 
+     44 |             .getText(&#39;div &gt; div &gt; p&#39;, &#39;Ürün listenize başarıyla eklendi.&#39;) 
+     45 | 
+     46 |             .pause(1 * 3500)
+    ––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
