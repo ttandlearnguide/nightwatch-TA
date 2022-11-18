@@ -2,7 +2,7 @@ module.exports = {
     tests: client => {
         client
         //First step
-            .url('https://www.cimri.com/') //visit to site.
+            .url('https://www.cimri.com/') //visit to site.ss
         //Second step
             .pause(1 * 3000) // 3 second wait.
         //Third step
